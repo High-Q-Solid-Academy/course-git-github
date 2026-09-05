@@ -1,0 +1,13 @@
+{
+  "name": "course-git-github",
+  "version": "1.0.0",
+  "description": "Git & GitHub Foundations course at High Q Solid Academy",
+  "scripts": {
+    "lint:commits": "commitlint --from=HEAD~1",
+    "test": "node scripts/verify-labs.js"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2"
+  }
+}
